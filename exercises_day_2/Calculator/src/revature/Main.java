@@ -1,9 +1,8 @@
-package com.revature;
+package revature;
 
-import com.revature.jan5.Calculator;
+import revature.Calculator;
 
-    public class Main {
-
+public class Main {
         public static void main(String[] args) {
             Calculator calc =  new Calculator();
             calc.setNum1(5);
@@ -22,5 +21,4 @@ import com.revature.jan5.Calculator;
             System.out.println("Sum given by calculator2 with "+cal2.getNum1()+" and "+ cal2.getNum2()+": " +s2 + " and the brand is " + Calculator.brand);
         }
 
-    }
 }

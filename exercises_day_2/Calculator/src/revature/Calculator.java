@@ -1,4 +1,4 @@
-package com.revature.jan5;
+package revature;
 
 public class Calculator {
     private int num1;
