@@ -6,8 +6,8 @@ import com.revature.beans.Triangle;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Creating rectangle of dim1=1 and dim2=2.");
-        Rectangle rectangle = new Rectangle(1,2);
+        System.out.println("Creating rectangle of dim1=4 and dim2=2.");
+        Rectangle rectangle = new Rectangle(4,2);
         System.out.println("Area of rectangle is: "+rectangle.getArea());
         System.out.println("Perimeter of rectangle is: "+rectangle.getPerimeter());
         System.out.println("Creating right triangle with legs of length 3 and 4.");

@@ -1,6 +1,6 @@
 package com.revature.beans;
 
-public class Polygon {
+abstract class Polygon {
     protected double dim1;
     protected double dim2;
 
@@ -27,4 +27,7 @@ public class Polygon {
     public void setDim2(double dim2) {
         this.dim2 = dim2;
     }
+
+    abstract double getArea();
+    abstract double getPerimeter();
 }

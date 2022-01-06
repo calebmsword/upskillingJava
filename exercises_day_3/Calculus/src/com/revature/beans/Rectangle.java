@@ -12,10 +12,12 @@ public class Rectangle extends Polygon {
         super(dim1, dim2);
     }
 
+    @Override
     public double getArea() {
         return this.dim1*this.dim2;
     }
 
+    @Override
     public double getPerimeter() {
         return this.dim1+this.dim1+this.dim2+this.dim2;
     }
