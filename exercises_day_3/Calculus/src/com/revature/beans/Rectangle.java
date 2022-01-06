@@ -1,5 +1,8 @@
 package com.revature.beans;
 
+/**
+ * dim1 is width, dim2 is height.
+ */
 public class Rectangle extends Polygon {
     public Rectangle() {
     }

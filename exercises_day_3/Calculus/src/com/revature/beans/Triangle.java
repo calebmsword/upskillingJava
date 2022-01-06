@@ -3,7 +3,7 @@ package com.revature.beans;
 import java.lang.Math;
 
 /**
- *
+ * dim3 is the angle (radians) between sides of length dim1 and dim2.
  */
 public class Triangle extends Polygon {
     private double dim3;
