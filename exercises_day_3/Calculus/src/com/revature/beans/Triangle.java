@@ -11,12 +11,14 @@ public class Triangle extends Polygon {
     public Triangle(double dim1, double dim2, double dim3) {
         super(dim1, dim2);
 
-        if(dim3 < 0) {
-            System.out.println("WARNING: Triangle given angle less than 0. Angle automatically set to 0.");
-            this.dim3 = 0;
+        if (dim3 < 0) {
+            System.out.println("WARNING: Dimension 3 must be a value greater than 0. Angle automatically set to 1.");
+            this.dim3 = 1;
         } else if (dim3 > Math.PI/2) {
             System.out.println("WARNING: Triangle given angle greater than pi/2. Angle automatically set to pi/2.");
             this.dim3 = Math.PI/2;
+        } else if (dim3 == 0) {
+            System.out.println("WARNING: Dimension 3 cannot be 0. Angle automatically set to 1.");
         } else {
             this.dim3 = dim3;
         }
@@ -30,12 +32,14 @@ public class Triangle extends Polygon {
     }
 
     public void setDim3(double dim3) {
-        if(dim3 < 0) {
-            System.out.println("WARNING: Triangle given angle less than 0. Angle automatically set to 0.");
-            this.dim3 = 0;
+        if (dim3 < 0) {
+            System.out.println("WARNING: Dimension 3 must be a value greater than 0. Angle automatically set to 1.");
+            this.dim3 = 1;
         } else if (dim3 > Math.PI/2) {
             System.out.println("WARNING: Triangle given angle greater than pi/2. Angle automatically set to pi/2.");
             this.dim3 = Math.PI/2;
+        } else if (dim3 == 0) {
+            System.out.println("WARNING: Dimension 3 cannot be 0. Angle automatically set to 1.");
         } else {
             this.dim3 = dim3;
         }
