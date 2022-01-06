@@ -1,8 +1,8 @@
 package com.revature.beans;
 
 public class Polygon {
-    private double dim1;
-    private double dim2;
+    protected double dim1;
+    protected double dim2;
 
     public Polygon() {
     }

@@ -25,6 +25,7 @@ public class Triangle extends Polygon {
     }
 
     public Triangle() {
+        super();
     }
 
     public double getDim3() {
@@ -46,13 +47,13 @@ public class Triangle extends Polygon {
     }
 
     public double getArea() {
-        return 0.5*this.getDim1()*this.getDim2()*Math.sin(this.getDim3());
+        return 0.5*this.dim1*this.dim2*Math.sin(this.dim3);
     }
 
     public double getPerimeter() {
-        final double a = this.getDim1();
-        final double b = this.getDim2();
-        final double gamma = this.getDim3();
+        final double a = this.dim1;
+        final double b = this.dim2;
+        final double gamma = this.dim3;
         final double c = Math.sqrt(a*a+b*b-2*a*b*Math.cos(gamma));
         return a+b+c;
     }

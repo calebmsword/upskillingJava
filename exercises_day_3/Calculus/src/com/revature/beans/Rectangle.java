@@ -5,6 +5,7 @@ package com.revature.beans;
  */
 public class Rectangle extends Polygon {
     public Rectangle() {
+        super();
     }
 
     public Rectangle(double dim1, double dim2) {
@@ -12,10 +13,10 @@ public class Rectangle extends Polygon {
     }
 
     public double getArea() {
-        return this.getDim1()*this.getDim2();
+        return this.dim1*this.dim2;
     }
 
     public double getPerimeter() {
-        return this.getDim1()+this.getDim1()+this.getDim2()+this.getDim2();
+        return this.dim1+this.dim1+this.dim2+this.dim2;
     }
 }
