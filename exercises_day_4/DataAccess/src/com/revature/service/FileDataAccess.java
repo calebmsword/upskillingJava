@@ -5,7 +5,7 @@ import com.revature.beans.Employee;
 public class FileDataAccess implements IDataAccess {
     @Override
     public void save(Employee employee) {
-        // implement
+        System.out.println("Now saving " + employee);
     }
 
     @Override
