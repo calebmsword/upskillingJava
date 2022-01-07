@@ -37,7 +37,10 @@ public class Triangle extends Polygon {
 
     @Override
     public double getArea() {
-        return 0.5*this.dim1*this.dim2*Math.sin(this.dim3);
+        final double a = this.dim1;
+        final double b = this.dim2;
+        final double gamma = this.dim3;
+        return 0.5*a*b*Math.sin(gamma);
     }
 
     @Override
