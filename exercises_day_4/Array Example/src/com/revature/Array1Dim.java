@@ -18,6 +18,11 @@ public class Array1Dim {
             System.out.println(marks[i]);
         }
 
-        System.out.println("Thank you!!");
+        int sum = 0;
+        System.out.println("Sum of all elements is:");
+        for(int i=0; i < marks.length; i++) {
+            sum += marks[i];
+        }
+        System.out.println(sum);
     }
 }
