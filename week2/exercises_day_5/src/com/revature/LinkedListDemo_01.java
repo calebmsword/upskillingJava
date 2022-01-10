@@ -2,11 +2,12 @@ package com.revature;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 @SuppressWarnings("deprecated and marked for removal")
-public class ArrayListDemo_01 {
+public class LinkedListDemo_01 {
     public static void main(String[] args) {
-        ArrayList<Integer> intList = new ArrayList<>();
+        LinkedList<Integer> intList = new LinkedList<>();
 
         // Storing element into an ArrayList
 
