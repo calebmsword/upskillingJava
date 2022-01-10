@@ -52,6 +52,16 @@ public class Employee implements Comparable<Employee> {
         return id+", "+firstname+", "+lastname+", "+email;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
     public static Employee parseEmployee(String csvEmployee) {
         String[] values = csvEmployee.split(",");
         int id = Integer.parseInt(values[0].trim());
@@ -65,5 +75,31 @@ public class Employee implements Comparable<Employee> {
     @Override
     public int compareTo(Employee other) {
         return this.id - other.id;
+    }
+
+    public int hashCode() {
+        int hash = 13;
+        hash = ( hash * 7 ) + ( id );
+        hash = ( hash * 7 ) + ( firstname == null  ? 0 : firstname.hashCode() );
+        hash = ( hash * 7 ) + ( lastname == null ? 0 : lastname.hashCode() );
+        hash = ( hash * 7 ) + ( email == null ? 0 : email.hashCode() );
+        return hash;
+    }
+
+    public boolean equals(Object object) {
+        if (object == null) {
+            return false;
+        }
+        if (this.getClass() != object.getClass()) {
+            return false;
+        }
+        if (object instanceof Employee && this == object) {
+            return true;
+        }
+        Employee employee = (Employee) object;
+        return this.id == employee.getId()
+                && this.firstname.equals(employee.getFirstname())
+                && this.lastname.equals(employee.getLastname())
+                && this.email.equals(employee.getEmail());
     }
 }
