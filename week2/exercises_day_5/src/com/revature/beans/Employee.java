@@ -1,6 +1,9 @@
 package com.revature.beans;
 
-public class Employee implements Comparable<Employee> {
+import java.io.Serial;
+import java.io.Serializable;
+
+public class Employee implements Comparable<Employee>, Serializable {
     int id;
     String firstname;
     String lastname;
