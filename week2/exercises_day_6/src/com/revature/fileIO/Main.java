@@ -1,6 +1,6 @@
-package com.revature;
+package com.revature.fileIO;
 
-import com.revature.service.ProcessStudent;
+import com.revature.fileIO.service.ProcessStudent;
 
 public class Main {
     public static void main(String[] args) {

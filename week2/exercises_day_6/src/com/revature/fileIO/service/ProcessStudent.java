@@ -1,7 +1,7 @@
-package com.revature.service;
+package com.revature.fileIO.service;
 
-import com.revature.beans.Student;
-import com.revature.beans.ProcessedStudent;
+import com.revature.fileIO.beans.Student;
+import com.revature.fileIO.beans.ProcessedStudent;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
