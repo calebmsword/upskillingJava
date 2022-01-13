@@ -1,4 +1,4 @@
-package topic1;
+package RunnableAndFunctionalInterface;
 
 public class Main {
     public static void main(String[] args) {

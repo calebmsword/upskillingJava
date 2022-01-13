@@ -1,4 +1,4 @@
-package topic1.com.revature.app.beans;
+package RunnableAndFunctionalInterface.com.revature.app.beans;
 
 public class RunnableImpl implements Runnable {
     @Override

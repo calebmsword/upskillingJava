@@ -1,6 +1,6 @@
-package topic1.com.revature.app;
+package RunnableAndFunctionalInterface.com.revature.app;
 
-import topic1.com.revature.app.beans.RunnableImpl;
+import RunnableAndFunctionalInterface.com.revature.app.beans.RunnableImpl;
 
 public class Demo1 {
     public static void main(String[] args) {
