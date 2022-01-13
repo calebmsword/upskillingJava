@@ -3,6 +3,7 @@ package RunnableAndFunctionalInterface.CalculatorHandsOn;
 import java.util.Scanner;
 
 public class Main {
+    @SuppressWarnings("*")
     public static void main(String[] args) {
         Calculator add = (a, b) -> a + b;
         Calculator subtract = (a, b) -> a - b;

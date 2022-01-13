@@ -1,6 +1,6 @@
 package RunnableAndFunctionalInterface.com.revature.app;
 
-import RunnableAndFunctionalInterface.com.revature.app.beans.MyFunctionalInterface;
+import RunnableAndFunctionalInterface.com.revature.beans.MyFunctionalInterface;
 
 public class Demo5 {
     public static void main(String[] args) {

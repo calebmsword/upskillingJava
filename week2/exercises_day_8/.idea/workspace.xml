@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1361475-11fd-4d06-9c2e-05d9c3abe8a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/CalculatorHandsOn/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/CalculatorHandsOn/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/beans/MyFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/ConsumerDemo_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises_day_8/topic1/com/revature/app/Demo2$RunnableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises_day_8/topic1/com/revature/app/Demo2$RunnableImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises_day_8/topic1/com/revature/app/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises_day_8/topic1/com/revature/app/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topic1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topic1/com/revature/app/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topic1/com/revature/app/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topic1/com/revature/app/beans/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/beans/RunnableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercises_day_8/RunnableAndFunctionalInterface/com/revature/app/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises_day_8/RunnableAndFunctionalInterface/com/revature/app/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercises_day_8/RunnableAndFunctionalInterface/com/revature/app/Demo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises_day_8/RunnableAndFunctionalInterface/com/revature/app/Demo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercises_day_8/RunnableAndFunctionalInterface/com/revature/app/beans/MyFunctionalInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercises_day_8/RunnableAndFunctionalInterface/com/revature/app/beans/RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/CalculatorHandsOn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/CalculatorHandsOn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/Demo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/beans/MyFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/beans/MyFunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/app/beans/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunnableAndFunctionalInterface/com/revature/beans/RunnableImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +52,25 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="RunnableAndFunctionalInterface.com.revature" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConsumerDemo_01">
+    <configuration name="ConsumerDemo_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunnableAndFunctionalInterface.com.revature.app.ConsumerDemo_01" />
+      <module name="exercises_day_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RunnableAndFunctionalInterface.com.revature.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunnableAndFunctionalInterface.com.revature.app.Demo1" />
       <module name="exercises_day_8" />
@@ -107,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemo_01" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo5" />
         <item itemvalue="Application.Demo3" />
