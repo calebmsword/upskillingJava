@@ -5,7 +5,7 @@ import java.sql.*;
 public class Demo1 {
     public static void main(String[] args) {
         String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:5432/nameOfTable";
+        String url = "jdbc:mysql://localhost:5432/nameOfTable"; // might be nameOfDatabase
         String username = "username";
         String password = "password";
 
