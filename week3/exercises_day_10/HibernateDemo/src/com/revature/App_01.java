@@ -19,7 +19,7 @@ public class App_01 {
 //        SessionFactory sessionFactory = metadata.getSessionFactoryBuilder().build();
         SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
         Session session = sessionFactory.openSession();
-        
+
          session.beginTransaction();
 
          Employee employee1 = new Employee("Saleb", "Sword");

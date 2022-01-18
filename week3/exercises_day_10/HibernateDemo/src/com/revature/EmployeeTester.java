@@ -15,6 +15,4 @@ public class EmployeeTester {
             System.out.println("Both e1 and e2 are not referring to same object");
         }
     }
-
-
 }
