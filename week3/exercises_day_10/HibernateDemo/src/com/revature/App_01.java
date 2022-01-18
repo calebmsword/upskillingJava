@@ -1,6 +1,7 @@
 package com.revature;
 
 import com.revature.beans.Employee;
+import com.revature.util.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
@@ -13,15 +14,15 @@ import java.util.List;
 
 public class App_01 {
     public static void main(String[] args) {
-        StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
-        Metadata metadata = new MetadataSources(ssr).getMetadataBuilder().build();
-        SessionFactory sessionFactory = metadata.getSessionFactoryBuilder().build();
+//        StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+//        Metadata metadata = new MetadataSources(ssr).getMetadataBuilder().build();
+//        SessionFactory sessionFactory = metadata.getSessionFactoryBuilder().build();
+        SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
         Session session = sessionFactory.openSession();
-
-
+        
          session.beginTransaction();
 
-         Employee employee1 = new Employee("Caleb", "Sword");
+         Employee employee1 = new Employee("Saleb", "Sword");
          Employee employee2 = new Employee("John", "Smith");
          Employee employee3 = new Employee("My", "Mom");
 
@@ -42,6 +43,5 @@ public class App_01 {
                 .forEach(System.out::println);
 
         session.close();
-        sessionFactory.close();
     }
 }
