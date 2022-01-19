@@ -13,4 +13,46 @@
         <constructor-arg value="Sword" />
     </bean>
 
+    <bean id="address" class="com.revature.beans.Address">
+        <property name="fullAddress" value="Full Address including with City" />
+    </bean>
+
+    <!-- No autowire: method #1: -->
+<!--    <bean id="person" class="com.revature.beans.Person">-->
+<!--        <property name="id" value="100" />-->
+<!--        <property name="name" value="Caleb" />-->
+<!--        <property name="address" ref="address" />-->
+<!--    </bean>-->
+
+    <!-- No autowire: method #2 -->
+<!--    <bean id="person" class="com.revature.beans.Person">-->
+<!--        <property name="id" value="100" />-->
+<!--        <property name="name" value="Caleb" />-->
+<!--        <property name="address"> -->
+<!--            <bean class="com.revature.beans.Address">-->
+<!--                <property name="fullAddress" value="abcdefghijklmnopqrstuvwxyz" />-->
+<!--            </bean>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    Autowire by name -->
+<!--    <bean id="person" class="com.revature.beans.Person" autowire="byName">-->
+<!--        <property name="id" value="100" />-->
+<!--        <property name="name" value="Caleb" />-->
+<!--    </bean>-->
+
+    <!-- Autowire by type -->
+    <bean id="person" class="com.revature.beans.Person" autowire="byType">
+        <property name="id" value="100" />
+        <property name="name" value="Caleb" />
+    </bean>
+
+    <!-- Autowire by constructor -->
+<!--    <bean id="person" class="com.revature.beans.Person" autowire="constructor">-->
+<!--&lt;!&ndash;        <constructor-arg value="100" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg value="Caleb" />&ndash;&gt;-->
+<!--        <property name="id" value="100" />-->
+<!--        <property name="name" value="Caleb" />-->
+<!--    </bean>-->
+
 </beans>
