@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean class="com.revature.service.DBSaverService" id="saver">
+        <property name="driver" value="OrclDriver"/>
+        <property name="url" value="OrclCalcURL" />
+        <property name="username" value="SuperUser" />
+        <property name="password" value="SuperPass" />
+    </bean>
+
+    <!--    <bean class="com.revature.service.FileSaverService" id="saver">-->
+    <!--        <property name="filename" value="Employee.dat"/>-->
+    <!--    </bean>-->
+
+    <bean class="com.revature.controller.SaverController" id="controller" autowire="byName" />
+
+</beans>
