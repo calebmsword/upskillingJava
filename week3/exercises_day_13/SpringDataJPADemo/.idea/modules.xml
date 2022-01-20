@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringDataJPADemo.iml" filepath="$PROJECT_DIR$/.idea/SpringDataJPADemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataJPADemo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataJPADemo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataJPADemo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataJPADemo.test.iml" />
+    </modules>
+  </component>
+</project>
