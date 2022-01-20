@@ -9,12 +9,14 @@ public class App_01 {
     public static void main(String[] args) {
         ApplicationContext ctxt = new ClassPathXmlApplicationContext("spring.xml");
 
-        Employee employee = new Employee("Caleb", 99);
+        Employee employee1 = new Employee("Johnathan", 99);
+        Employee employee2 = new Employee("Barack", 199);
+        Employee employee3 = new Employee("Trump", 100);
+        Employee employee4 = new Employee("Blake", 10);
 
         EmployeeService employeeService = ctxt.getBean(EmployeeService.class);
-        System.out.println("Saving employee: "+employee);
-        Employee savedEmployee = employeeService.save(employee);
-        System.out.println("Saved employee: "+savedEmployee);
+        Employee savedEmployee = employeeService.save(employee1);
+
         System.out.println("Employee saved succesfully!");
     }
 }
