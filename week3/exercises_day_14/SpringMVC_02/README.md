@@ -1,0 +1,1 @@
+I did it using gradle instead of installing things manually like in lecture. I also used a IntelliJ-generated project structure that is different from lecture. It still works exactly as he showed it!... somehow
