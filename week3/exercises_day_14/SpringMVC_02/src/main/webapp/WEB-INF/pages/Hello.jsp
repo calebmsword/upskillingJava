@@ -12,5 +12,6 @@
 </head>
 <body>
     <h2>Welcome to Hello Page</h2>
+    <h3>Message of model: ${msg}</h3>
 </body>
 </html>
