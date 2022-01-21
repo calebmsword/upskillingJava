@@ -23,15 +23,15 @@
     <form:form action="empreg" method="post">
         <table>
             <tr>
-                <td><form:label path="id"></form:label></td>
+                <td><form:label path="id">ID</form:label></td>
                 <td><form:input path="id" /></td>
             </tr>
             <tr>
-                <td><form:label path="name"></form:label></td>
+                <td><form:label path="name">Name</form:label></td>
                 <td><form:input path="name" /></td>
             </tr>
             <tr>
-                <td><form:label path="deptno"></form:label></td>
+                <td><form:label path="deptno">DeptNo</form:label></td>
                 <td><form:input path="deptno" /></td>
             </tr>
             <tr>
