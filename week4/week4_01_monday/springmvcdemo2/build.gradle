@@ -14,8 +14,18 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
     // https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper
     implementation group: 'org.apache.tomcat', name: 'tomcat-jasper', version: '9.0.56'
+
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '5.1.49'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.5.9'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-rest
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version: '2.5.9'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
