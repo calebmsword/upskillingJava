@@ -32,11 +32,12 @@ public class EmployeeController {
     }
 
     @PutMapping("")
-    public Employee editEmployee(Employee employee) {
+    public Employee editEmployee(@RequestBody Employee employee) {
         return employeeService.editEmployee(employee);
     }
 
-    public Employee deleteEmployee(int id) {
+    @DeleteMapping("/{id}")
+    public Employee deleteEmployee(@PathVariable int id) {
         return employeeService.deleteEmployee(id);
     }
 }
