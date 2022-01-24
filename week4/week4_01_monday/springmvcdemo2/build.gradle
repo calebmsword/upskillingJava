@@ -1,12 +1,12 @@
 plugins {
-    id 'org.springframework.boot' version '2.6.3'
+    id 'org.springframework.boot' version '2.5.9'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
 
 group = 'com.revature'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
@@ -16,8 +16,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-    // https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper
-    implementation group: 'org.apache.tomcat', name: 'tomcat-jasper', version: '9.0.56'
+
 
 }
 
