@@ -14,10 +14,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    // https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper
+    implementation group: 'org.apache.tomcat', name: 'tomcat-jasper', version: '9.0.56'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-
-
 }
 
 tasks.named('test') {
